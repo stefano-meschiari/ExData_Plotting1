@@ -12,7 +12,7 @@ png('plot4.png')
 par(mfrow=c(2, 2))
 
 # First subplot
-plot(date, data$Global_active_power, type='l', ylab='Global Active Power')
+plot(date, data$Global_active_power, type='l', ylab='Global Active Power', xlab=NA)
 
 # Second subplot
 plot(date, data$Voltage, type='l', ylab='Voltage',
